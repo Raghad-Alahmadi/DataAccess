@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35919.96 d17.13
+VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{D7175D08-3096-45D2-818F-C3D7A90133F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess.Tests", "DataAccess.Tests\DataAccess.Tests.csproj", "{950803DD-7E46-42C5-A55B-107CA98ACCD8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D7175D08-3096-45D2-818F-C3D7A90133F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7175D08-3096-45D2-818F-C3D7A90133F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7175D08-3096-45D2-818F-C3D7A90133F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{950803DD-7E46-42C5-A55B-107CA98ACCD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{950803DD-7E46-42C5-A55B-107CA98ACCD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{950803DD-7E46-42C5-A55B-107CA98ACCD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{950803DD-7E46-42C5-A55B-107CA98ACCD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
