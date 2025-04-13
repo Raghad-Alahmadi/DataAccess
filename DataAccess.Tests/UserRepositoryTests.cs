@@ -20,7 +20,7 @@ namespace DataAccess.Tests
 
         public UserRepositoryTests()
         {
-            // Set up in-memory database - use unique name for each test run
+            // Set up in-memory database 
             _options = new DbContextOptionsBuilder<AppDbContext>()
                 .UseInMemoryDatabase(databaseName: $"UserTestDb_{Guid.NewGuid()}")
                 .Options;
